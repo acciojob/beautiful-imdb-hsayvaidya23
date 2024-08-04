@@ -4,12 +4,65 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.movie-container {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.movieTitle {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.moviePic {
+    height: 400px;
+    width: auto;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.movieDetail {
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<div class="movie-container">
+        <h1 class="movieTitle">Avengers Endgame</h1>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQF0TjmtfnNHBJ_S2JMzOhF45NgJAjRKpRZipRZex1tw-KLZQ8R9aIp_TGGDNWBx4iSy3a" alt="Avengers Endgame Poster" class="moviePic">
+        <p class="movieDetail">After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+    </div>
 
 </body>
 
